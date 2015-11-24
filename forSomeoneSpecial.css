@@ -1,0 +1,309 @@
+﻿/* For Someone Special */
+/* Tina Bryan Project Final Draft */
+dt, h1, h2, h3, nav, footer, th {
+  font-family: 'Ubuntu', sans-serif;
+  }
+h1, h2, nav, footer {
+  text-align: center;
+  font-family: 'Poiret One', cursive, Arial, serif;
+  font-weight: bold;
+  }
+body {
+  width: 44em;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  background: #6e93c8;
+  background: url("images/sunshines_bright.jpg") no-repeat fixed;
+  background-size: cover;
+  }
+figure {
+  display: block;
+  float: right;
+  margin: 0 0 0.5em 1em;
+  padding: 0;
+  text-align: center;
+  }
+figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+  }
+footer {
+  display: block;
+  padding: 0;
+  margin: 0;
+  clear: right;
+  font-size: 1.25em;
+  }
+footer p {
+  background: #d24dff;
+  border-radius: 0 0 3em 0;
+  text-align: center;
+  margin: 0;
+  padding: 0.25em;
+  }
+h1 {
+  font-size: 2.25em;
+  margin: 0;
+  padding: 0;
+  }
+h2 {
+  font-size: 1.5em;
+  }
+h3 {
+  font-size: 1em;
+  font-size: 20px;
+  }
+img {
+  padding-top: 1em;
+  border: none;
+  margin: 0 auto;
+  }
+nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  }
+nav p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+ul {
+  list-style-type: square; 
+  }
+table {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border-bottom: 1px solid black;
+  padding: 0.25em;
+  background: #ffff80;
+  }
+iframe {
+  float: right;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+#box {
+  padding: 1em;
+  margin: 0 auto; 
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3em 0 3em 0;
+  }
+#main img {
+  padding-top: 1em;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em;
+  }
+#mainnav {
+  background: #ffccff;
+  text-align: center;
+  margin: 0;
+  padding: 0.25em;
+  }
+#maintext {
+  margin: 0;
+  padding: 1em;
+  }
+#name {
+  font-weight: bold;
+  color: #c61aff;
+  }
+#pagenav {
+  color: black;
+  background: #ffccff;
+  margin: 0;
+  padding: 0.25em;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0 auto;
+  padding: 0.25em;
+  }
+#title {
+  font-style: italic;
+  }
+#contactinfo label {
+  display: block;
+  position: relative;
+  margin: 12px;
+  }
+#contactinfo input {
+  position: absolute;
+  left: 100px;
+  }
+#nameinput, #emailinput {
+  width: 30em;
+  }
+#phoneinput {
+  width: 12em;
+  }
+#submit {
+  background: #ffff00;
+  font-size: 1.25em;
+  }
+#submitbutton {
+  border: none;
+  background: #99ff99;
+  padding: 0.5em 0 0 0;
+  text-align: center;
+  margin-bottom: 1em;
+  padding-bottom: .5em;
+}
+.dogs {
+  float: left;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+.measure {
+  padding-right: 3em;
+  }
+.dogs1 {
+  float: right;
+  padding-bottom: 1em;
+  }
+.therapy {
+  padding-bottom: .5em;
+  float: right;
+  }
+.lisa {
+  margin-bottom: 0;
+  padding: 0;
+  }
+.cadre {
+  padding-left: 2em;
+  margin-right: 0;
+  padding-right: 0;
+  }
+.airforce {
+  text-align: center;
+  }
+.princess {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  font-weight: bold;
+  }
+.callout {
+  font-weight: bold;
+  color: #c61aff;
+  font-size: 34px;
+  }
+.desc {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  }
+.layers {
+  background: #ccffff;
+  width: 15%;
+  }
+.desc {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  }
+.color {
+  background: #ccffff;
+  width: 25%;
+  }
+.pricing th {
+  text-align: center;
+  }
+.pricing th.tulle {
+  text-align: left;
+  }
+.length {
+  background: #ccffff;
+  width: 15%;
+  }
+.tablenote {
+  width: 90%;
+  margin: 0.25em auto;
+  }
+.toplink {
+  text-align: right;
+  padding: 0 1em 0.25em 0;
+  margin: 0;
+  clear: right;
+  }
+.category {
+  font-weight: bold;
+  }
+.contact {
+  display: table;
+  } 
+.order {
+  background-color: #99ff99;
+  }
+.row {
+  display: table-row;
+  }
+.row div {
+  display: table-cell;
+  padding: 0.25em 0.5em;
+  }
+input:focus, textarea:focus {
+  background: #ccffff;
+  }
+a:link {
+  color: #000;
+  }
+a:visited {
+  color: #0000ff;
+  }
+a:hover {
+  color: #ff0000;
+  }
+a:active {
+  color: #0000ff;
+  }
+#skipnav a:link {
+  color: black;
+  }
+#skipnav a:visited {
+  color: #006600;
+  }
+#skipnav a:hover {
+  color: #ff0000;
+  }
+#skipnav a:active {
+  color: #3333ff;
+  }
+#pagenav a:link {
+  color: black;
+  }
+#pagenav a:visited {
+  color: #006600;
+  }
+#pagenav a:hover {
+  color: #ff0000;
+  }
+#pagenav a:active {
+  color: #3333ff;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: #006600;
+  }
+#mainnav a:hover {
+  color: #ff0000;
+  }
+#mainnav a:active {
+  color: #3333ff;
+  }
