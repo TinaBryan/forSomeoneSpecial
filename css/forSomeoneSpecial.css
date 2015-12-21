@@ -1,5 +1,5 @@
 /* For Someone Special */
-/* Tina Bryan Project Final */
+/* Tina Bryan Project Final Draft */
 dt, h1, h2, h3, nav, footer, th {
   font-family: 'Ubuntu', sans-serif;
   }
@@ -9,7 +9,7 @@ h1, h2, nav, footer {
   font-weight: bold;
   }
 body {
-  width: 80%;
+  width: 44em;
   padding: 0;
   margin: 0 auto;
   font-family: 'Ubuntu', sans-serif;
@@ -38,7 +38,7 @@ footer {
   font-size: 1.25em;
   }
 footer p {
-  background: #e080ff;
+  background: #d24dff;
   border-radius: 0 0 3em 0;
   text-align: center;
   margin: 0;
@@ -65,7 +65,7 @@ nav {
   display: block;
   margin: 0;
   padding: 0;
-  font-size: 1em;
+  font-size: 1.25em;
   }
 nav p {
   text-align: center;
@@ -114,7 +114,6 @@ iframe {
   text-align: center;
   margin: 0;
   padding: 0.25em;
-  border-radius: 3em;
   }
 #maintext {
   margin: 0;
@@ -165,41 +164,36 @@ iframe {
   margin-bottom: 1em;
   padding-bottom: .5em;
 }
-.svg {
-  width: 75%;
-}
 .dogs {
-  position: center;
+  float: left;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 2em;
+  padding-bottom: 1em;
 }
 .measure {
   padding-right: 3em;
   }
-.oliver {
-  position: center;
+.dogs1 {
+  float: right;
+  padding-bottom: 1em;
   }
 .therapy {
-  position: center;
+  padding-bottom: .5em;
+  float: right;
   }
 .lisa {
-  position: center;
   margin-bottom: 0;
-  padding: 1em 5em 0 3em;
-  clear: left;
+  padding: 0;
+  }
+.cadre {
+  padding-left: 2em;
+  margin-right: 0;
+  padding-right: 0;
   }
 .airforce {
   text-align: center;
   }
-.cadre {
-  }
-.video {
-  float: right;
-  padding: 0 3em 1em 0;
-}
-.jump {
-  float: left;
-  clear: right;
-  padding: 0 7em 1em 3em;
-}
 .princess {
   padding: 0;
   margin: 1em 0 0 2em;
@@ -308,49 +302,8 @@ a:active {
   color: #006600;
   }
 #mainnav a:hover {
-  color: #000;
-  background-color: #00feff;
-  border-radius: 2em;
+  color: #ff0000;
   }
 #mainnav a:active {
   color: #3333ff;
   }
-li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/*li a:hover, .dropdown:hover .dropbtn {
-    background-color: #b3ff66;
-}*/
-
-.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffe5;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #00e600;
-  border-radius: 1em;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}

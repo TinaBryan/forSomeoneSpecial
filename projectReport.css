@@ -1,0 +1,14 @@
+/* Project Report - For Someone Special
+		Tina Bryan, Final Project */
+body {
+	width: 80%;
+	margin: 1em;
+	padding: 2em;
+}
+h1, h2 {
+	color: #1a75ff;
+	font-family:	Ubuntu, sans-serif;
+}
+h3, p {
+	color: #000;
+}
